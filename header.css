@@ -1,0 +1,72 @@
+nav ul li
+{
+  padding: 8px 80px;
+  list-style: none;
+  text-decoration: blink ;
+  color: black;
+  font-weight: bold;
+}
+header
+{
+  text-align: center;
+  box-shadow: 3px 3px lightblue;
+}
+
+.contain
+{
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.flex
+{
+  display: flex;
+}
+
+.space-between
+{
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.left-container a:hover
+{
+  color: red;
+}
+
+.button-1,.button-2{
+  justify-content: space-between;
+  background-color: green;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-right: 10;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1,.button-2:hover,
+.button-1,.button-2:focus {
+  background-color: green;
+}
+
